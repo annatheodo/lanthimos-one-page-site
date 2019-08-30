@@ -25,14 +25,6 @@ a:hover {
 .navbar-toggler-icon, #menu{
     align-items: center;
 }
-button.change:hover {
-cursor: pointer;
-background-color: #F89900;
-}
-button:active {
-outline: none;
-border: none;
-}
 button:focus {
     outline:0;
 }
