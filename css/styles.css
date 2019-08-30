@@ -12,22 +12,29 @@ a:hover {
     background-color: #BEAA8F;
 }
 .fullscreen{
-	width: 100%;
-	height: 100%;
-	background-image: url("../images/cover.jpg");
-	background-size: cover;
-	background-position: 50% 50%;
-	background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/cover.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
 }
 .navbar {
     justify-content: center !important;
 }
 .navbar-toggler-icon, #menu{
-	align-items: center;
+    align-items: center;
 }
-.navbar-dark .navbar-toggler {
-    color: white !important;
-    border-color: none !important;
+button.change:hover {
+cursor: pointer;
+background-color: #F89900;
+}
+button:active {
+outline: none;
+border: none;
+}
+button:focus {
+    outline:0;
 }
 #title{
 	display: flex;
